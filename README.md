@@ -142,7 +142,7 @@ To contribute or run tests locally:
 1.  **Set up the environment:**
     ```bash
     # Clone the repository
-    git clone https://github.com/open-webui/mcpo.git
+    git clone https://github.com/flemx/mcpo-heroku
     cd mcpo
 
     # Install dependencies (including dev dependencies)
