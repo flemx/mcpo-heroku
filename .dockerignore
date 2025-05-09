@@ -1,0 +1,41 @@
+# Python virtual environments
+**/.venv/
+**/venv/
+**/__pycache__/
+
+# Python cache files
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+
+# Node modules
+**/node_modules/
+
+# Development and temporary files
+.git/
+.github/
+.gitignore
+.DS_Store
+**/.DS_Store
+
+# Cache directories
+**/.cache/
+**/.pytest_cache/
+**/__pycache__/
+
+# IDE files
+.idea/
+.vscode/
+.editorconfig
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Local configuration
+**/.env
+**/.env.local 

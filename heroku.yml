@@ -1,0 +1,11 @@
+# Configure the build process
+build:
+  docker:
+    web: Dockerfile
+
+# Define process types and commands
+run:
+  web:
+    command: 
+      - mcpo --port $PORT --api-key $API_KEY --config /app/mcp.json
+    image: web
