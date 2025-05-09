@@ -1,5 +1,7 @@
 # ⚡️ mcpo
 
+> **Note:** This is a clone of the original repository at [https://github.com/open-webui/mcpo.git](https://github.com/open-webui/mcpo.git) with added support for Heroku deployment and dynamic env variables
+
 Expose any MCP tool as an OpenAPI-compatible HTTP server—instantly.
 
 mcpo is a dead-simple proxy that takes an MCP server command and makes it accessible via standard RESTful OpenAPI, so your tools "just work" with LLM agents and apps expecting OpenAPI servers.
@@ -152,11 +154,9 @@ To contribute or run tests locally:
     uv run pytest
     ```
 
+## 🚀 Heroku Deployment
 
-
-
-
-## Heroku Deployment
+> **Enhanced Feature:** This fork adds full Heroku deployment support!
 
 You can deploy mcpo directly to Heroku using the included `heroku.yml` file:
 
@@ -190,7 +190,7 @@ heroku logs --tail
 
 Your MCProxy API will be available at `https://your-app-name.herokuapp.com/`
 
-## Environment Variables
+## 🌐 Environment Variables
 
 mcpo now supports loading environment variables from a `.env` file. This is useful for keeping sensitive information like API keys out of your codebase.
 
@@ -219,8 +219,6 @@ API_KEY=top-secret
 heroku config:set OPENAI_API_KEY=your_key
 # etc.
 ```
-
-
 
 ## 🪪 License
 
